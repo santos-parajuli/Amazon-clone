@@ -50,7 +50,7 @@ export default function Home() {
 						/>
 					</div>
 				</Carousel>
-				<div className="flex flex-wrap justify-evenly gap-y-16 z-100">
+				<div className="w-[80%] m-auto md:w-[90%] flex flex-wrap justify-evenly gap-y-16 z-100">
 					{currentProducts.map((product) => {
 						return (
 							<Product
