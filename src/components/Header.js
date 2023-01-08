@@ -50,14 +50,7 @@ return (
 					</span>
 				</div>
 			)}
-			<div className="flex flex-col text-white mx-3">
-				<span className="text-xs">Returns</span>
-				<span className="text-base font-bold">& Orders</span>
-			</div>
-			<div className="flex flex-col text-white mx-3">
-				<span className="text-xs">Your</span>
-				<span className="text-base font-bold">Prime</span>
-			</div>
+			
 			<Link
 				to="/checkout"
 				className="text-white flex items-center"
