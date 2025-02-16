@@ -85,6 +85,7 @@ export default function Login() {
 						</div>
 						<button
 							type="submit"
+							id="login-button"
 							onClick={logIn}
 							className="w-full mt-5 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg"
 						>
