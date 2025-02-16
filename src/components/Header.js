@@ -30,7 +30,7 @@ return (
 				<Link to={"/login"}>
 					<div className="flex flex-col text-white mx-3">
 						<span className="text-xs">Hello  Guest</span>
-						<span className="text-base font-bold">
+						<span className="text-base font-bold" id="login">
 							Log In
 						</span>
 					</div>
